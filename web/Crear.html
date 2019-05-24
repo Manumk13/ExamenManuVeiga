@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registrar libros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body{
+            
+            background-image:url(https://forosdelavirgen.org/wp-content/uploads/2011/11/demonio.jpg) ;
+            background-image: no-repeat; 
+            background-attachment: fixed;
+            background-position: center;
+            
+            
+        }
+          body h1 {
+
+            color:whitesmoke;
+
+        }
+       
+
+        
+        body h3{
+
+            color:darkblue ;
+
+        }
+
+
+        .contenedor{
+            background-image:url(http://www.fondosni.com/images/2012-10-26/Tablas%20azules-191137.jpg) ;
+    
+            background-attachment: fixed;
+            background-position:top;
+            border: gold solid  ;
+            border-radius: 15 px;
+            color:whitesmoke;
+        }
+        
+        
+        
+        
+        
+    </style>
+    <body><center>
+        <h1>Registre su libro:</h1>
+        <title>Registra los libros que desees</title>
+        <form action="RegistroLibrosServlet" method="GET">
+            
+            <input type="text" name="titulo" id="titulo" placeholder="Titulo"><br><br>
+            <input type="text" name="autor" id="autor" placeholder="Autor"><br><br>
+            <input type="text" name="ISBN" id="ISBN" placeholder="ISBN"> <br><br>
+            <input type="number" step="0.01" name="pvp" id="pvp" placeholder="pvp"> <br><br>
+
+            <input type="submit" value="Registrar">
+        </form>
+        <a href="index.html">volver</a>
+    </center></body>
+</html>
