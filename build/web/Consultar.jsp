@@ -77,8 +77,9 @@
                 <td><%=libros.getFloat("pvp")%>€</td>
              
             </tr>
-            <a href="index.html">Volver</a>
           <% }%>
-        </table></center>
+        </table>
+        <a href="index.html">Volver</a>
+        </center>
     </body>
 </html>
